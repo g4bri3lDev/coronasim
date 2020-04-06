@@ -5,6 +5,7 @@ export default function Titlebar(props) {
         <div className="navbar">
            <a href="/">Corona Simulator</a>
             {/*<button onClick={() => props.reset}>Reset</button>*/}
+            <button onClick={props.toggle}>Toggle Running</button>
         </div>
     )
 }
